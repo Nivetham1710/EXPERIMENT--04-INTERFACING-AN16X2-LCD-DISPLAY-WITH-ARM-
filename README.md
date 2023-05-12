@@ -164,7 +164,7 @@ int main(void)
     Lcd_HandleTypeDef lcd;
     lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
     Lcd_cursor(&lcd, 0,1);
-    Lcd_string(&lcd, "Meena S");
+    Lcd_string(&lcd, "Meiyarasi V");
     Lcd_cursor(&lcd, 1,1);
   while (1)
   {
@@ -174,6 +174,7 @@ int main(void)
 	  HAL_Delay (1000); }
   }
 }
+
 ~~~
 
 ## Output:
